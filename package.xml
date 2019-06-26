@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>exotica_solver_template</name>
+  <version>0.0.1</version>
+  <description>A template package to create new exotica solvers</description>
+
+  <maintainer email="wolfgang.merkt@ed.ac.uk">Wolfgang Merkt</maintainer>
+  <author>Wolfgang Merkt</author>
+
+  <license>BSD</license>
+
+  <url type="website">https://github.com/ipab-slmc/exotica_solver_template</url>
+  <url type="bugtracker">https://github.com/ipab-slmc/exotica_solver_template/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>exotica_core</depend>
+
+  <export>
+    <exotica_core plugin="${prefix}/exotica_plugins.xml" />
+  </export>
+</package>

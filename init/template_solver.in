@@ -1,0 +1,4 @@
+class TemplateSolver
+
+extend <exotica_core/motion_solver>
+Optional double Tolerance = 1e-5;
