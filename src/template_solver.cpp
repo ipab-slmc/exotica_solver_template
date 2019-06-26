@@ -57,6 +57,7 @@ void TemplateSolver::Solve(Eigen::MatrixXd& solution)
     solution.resize(1, prob_->N);
 
     Eigen::VectorXd q = q0;
+    double error = std::numeric_limits<double>::infinity();
 
     for (int i = 0; i < GetNumberOfMaxIterations(); ++i)
     {
